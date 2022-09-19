@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: SampleAPIDemo
+  description: API Definition of SampleAPIDemo
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/SampleAPIDemo
+paths:
+  /:
+    get:
+      responses:
+        default:
+          description: Default response
