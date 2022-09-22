@@ -3,7 +3,7 @@
     <resource methods="GET">
         <inSequence>
             <log>
-                <property name="car updating" value="Successfully updated"/>
+                <property name="Updated log" value="Successfully updated"/>
             </log>
         </inSequence>
         <outSequence/>
